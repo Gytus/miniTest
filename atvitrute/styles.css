@@ -1,0 +1,421 @@
+body {
+  animation-name: back;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes back {
+  from {
+    background-color: rgba(0, 0, 0, 0.74);
+  }
+  to {
+    background-color: rgba(118, 179, 173, 0.801);
+  }
+}
+.sun {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  background-color: red;
+  animation-name: sun;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  position: absolute;
+  animation-delay: 1ms;
+  margin-left: -45vh;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.text{
+  height: 100%;
+  display: inline-block;
+  animation: text 2s infinite linear;
+  animation-delay: 600ms;
+  font-size: 40px;
+  margin-top: 20%;
+  margin-left: 30%;
+  opacity: 0;
+
+}
+
+.flower1 {
+  height: 6vh;
+  width: 6vh;
+  border-radius: 100%;
+  animation-name: flower;
+  background-color: rgb(214, 214, 31);
+  bottom: 40%;
+  position: absolute;
+  margin-left: 18vh;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-delay: 600ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.flower2 {
+  height: 6vh;
+  width: 6vh;
+  border-radius: 100%;
+  animation-name: flower;
+  background-color: rgb(214, 214, 31);
+  bottom: 16%;
+  position: absolute;
+  margin-left: 47vh;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-delay: 600ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.flower3 {
+  height: 6vh;
+  width: 6vh;
+  animation-name: flower;
+  border-radius: 100%;
+  background-color: rgb(214, 214, 31);
+  bottom: 48%;
+  position: absolute;
+  margin-left: 76vh;
+  position: absolute;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+  animation-delay: 600ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.stem1 {
+  width: 3vh;
+  height: 20vh;
+  background-color: yellowgreen;
+  animation-name: stem;
+  position: absolute;
+  margin-left: 48vh;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 600ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.stem2 {
+  width: 3vh;
+  height: 40vh;
+  background-color: yellowgreen;
+  animation-name: stem;
+  position: absolute;
+  margin-left: 20vh;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 600ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.stem3 {
+  width: 3vh;
+  height: 50vh;
+  background-color: yellowgreen;
+  animation-name: stem;
+  position: absolute;
+  margin-left: 78vh;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 600ms;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.pet1{
+  width: 7vh;
+  height: 7vh;
+  border-radius: 60% 60% 4% 60%;
+  background-color: rgba(102, 51, 153, 0.72);
+  bottom: 43%;
+  margin-left: 14vh;
+  animation-name: pets;
+  position: absolute;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.pet2{
+  width: 7vh;
+  height: 7vh;
+  border-radius: 60% 60% 4% 60%;
+  background-color: rgba(102, 51, 153, 0.72);
+  bottom: 43%;
+  margin-left: 21vh;
+  rotate: 90deg;
+  animation-name: pets;
+  position: absolute;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.pet3{
+  width: 7vh;
+  height: 7vh;
+  border-radius: 60% 60% 4% 60%;
+  background-color: rgba(102, 51, 153, 0.72);
+  bottom: 36%;
+  margin-left: 14vh;
+  rotate: -90deg;
+  animation-name: pets;
+  position: absolute;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.pet4{
+  width: 7vh;
+  height: 7vh;
+  border-radius: 60% 60% 4% 60%;
+  background-color: rgba(102, 51, 153, 0.72);
+  bottom: 36%;
+  margin-left: 21vh;
+  rotate: 180deg;
+  animation-name: pets;
+  position: absolute;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.pet5{
+  width: 7vh;
+  height: 7vh;
+  border-radius: 60% 60% 4% 60%;
+  background-color: rgba(102, 51, 153, 0.72);
+  bottom: 19%;
+  margin-left: 43vh;
+  animation-name: pets;
+  position: absolute;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.pet6{
+  width: 7vh;
+  height: 7vh;
+  border-radius: 60% 60% 4% 60%;
+  background-color: rgba(102, 51, 153, 0.72);
+  bottom: 12%;
+  margin-left: 50vh;
+  rotate: -180deg;
+  animation-name: pets;
+  position: absolute;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.pet7{
+  width: 7vh;
+  height: 7vh;
+  border-radius: 60% 60% 4% 60%;
+  background-color: rgba(102, 51, 153, 0.72);
+  bottom: 18.9%;
+  margin-left: 50vh;
+  rotate: 90deg;
+  animation-name: pets;
+  position: absolute;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.pet8{
+  width: 7vh;
+  height: 7vh;
+  border-radius: 60% 60% 4% 60%;
+  background-color: rgba(102, 51, 153, 0.72);
+  bottom: 12%;
+  margin-left: 43vh;
+  rotate: -90deg;
+  animation-name: pets;
+  position: absolute;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.pet9{
+  width: 7vh;
+  height: 7vh;
+  border-radius: 60% 60% 4% 60%;
+  background-color: rgba(102, 51, 153, 0.72);
+  bottom: 44%;
+  margin-left: 72vh;
+  rotate: -90deg;
+  animation-name: pets;
+  position: absolute;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.pet10{
+  width: 7vh;
+  height: 7vh;
+  border-radius: 60% 60% 4% 60%;
+  background-color: rgba(102, 51, 153, 0.72);
+  bottom: 51%;
+  margin-left: 79vh;
+  rotate: 90deg;
+  animation-name: pets;
+  position: absolute;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.pet11{
+  width: 7vh;
+  height: 7vh;
+  border-radius: 60% 60% 4% 60%;
+  background-color: rgba(102, 51, 153, 0.72);
+  bottom: 51%;
+  margin-left: 72vh;
+  animation-name: pets;
+  position: absolute;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.pet12{
+  width: 7vh;
+  height: 7vh;
+  border-radius: 60% 60% 4% 60%;
+  background-color: rgba(102, 51, 153, 0.72);
+  bottom: 44%;
+  margin-left: 79vh;
+  rotate: -180deg;
+  animation-name: pets;
+  position: absolute;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.pet13{
+  width: 7vh;
+  height: 7vh;
+  border-radius: 60% 60% 4% 60%;
+  background-color: rgba(62, 200, 50, 0.72);
+  bottom: 30%;
+  margin-left: 72vh;
+  animation-name: pets;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  position: absolute;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.pet14{
+  width: 7vh;
+  height: 7vh;
+  border-radius: 60% 60% 4% 60%;
+  background-color:  rgba(62, 200, 50, 0.72);
+  bottom: 20%;
+  margin-left: 15vh;
+  animation-name: pets;
+  position: absolute;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+
+
+
+
+@keyframes sun {
+  0%{
+    opacity: 0;
+  }
+  from {
+    top: 70%;
+    left: 20%;
+    opacity: 0;
+  }
+  to {
+    top: 15%;
+    left: 80%;
+    opacity: 1;
+  }
+}
+
+@keyframes text{
+  from{
+    rotate: 0deg;
+    opacity: 1;
+  }
+  to{
+    rotate: 360deg;
+    opacity: 1;
+  }
+}
+
+@keyframes stem {
+  from {
+    bottom  : -100%;
+    opacity: 0;
+
+  }
+  to {
+    bottom: 0%;
+    opacity: 1;
+  }
+}
+
+@keyframes flower {
+  from{
+    opacity: 0;
+    width: 0vh;
+    height: 0vh;
+  }
+  to{
+    opacity: 1;
+    width: 6vh;
+    height: 6vh;
+  }
+}
+@keyframes pets {
+  from{
+    opacity: 0;
+    width: 0vh;
+    height: 0vh;
+  }
+  to{
+    opacity: 1;
+    width: 6vh;
+    height: 6vh;
+  }
+}
+
